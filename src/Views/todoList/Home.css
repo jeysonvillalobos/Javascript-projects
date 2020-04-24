@@ -1,0 +1,64 @@
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.txtAgregar{
+    margin: 30px;
+    width: 500px;
+    padding: 5px 5px 5px 0px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-size: 25px;
+}
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+}
+.titleTable{
+    background-color: #333333;
+    color: #ffffff;
+}
+td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+
+}
+
+.button{
+    width: 100px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+}
+.button:active{
+    transform: scale(1.1);
+}
+.buttonTerminar{
+    background-color: #00f066;
+}
+.buttonDesmarcar{
+    background-color: #f06a00;
+}
+.buttonEliminar{
+    background-color: #f00000
+}
