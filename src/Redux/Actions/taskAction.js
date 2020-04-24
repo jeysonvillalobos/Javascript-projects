@@ -1,11 +1,11 @@
 let idPlus = 0;
-const INSERTAR = (data) =>({
+const INSERTAR = data =>({
     type:'INSERTAR',
     id:idPlus++,
     nombre:data
 });
 
-const ACTUALIZAR = (id) =>({
+const ACTUALIZAR = id =>({
     type:'ACTUALIZAR',
     id:id
 });

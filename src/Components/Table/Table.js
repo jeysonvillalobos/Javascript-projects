@@ -10,6 +10,9 @@ class Table extends Component {
         this.props.ACTUALIZAR(e);
     }
 
+    eliminar(e){
+        this.props.ELIMINAR(e);
+    }
 
     render(){
         let finalizadaStyle;
@@ -25,7 +28,7 @@ class Table extends Component {
             <tr id={this.props.id} className="trSinTerminar" style={ finalizadaStyle }>
                 <td>{this.props.nombre}</td>
                 <td>{button}</td>
-                <td><button className="button buttonEliminar">Eliminar</button></td>
+                <td><button className="button buttonEliminar" onClick={this.eliminar.bind(this,this.props.id)}>Eliminar</button></td>
             </tr>          
         )
     }

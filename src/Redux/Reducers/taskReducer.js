@@ -28,7 +28,7 @@ const taskReducer = (state = [], action) => {
                    } else return data;
                });
         
-        case 'Eliminar':
+        case 'ELIMINAR':
                return state.filter(data => data.id !== action.id);
         default:
             return state;
